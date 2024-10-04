@@ -1,9 +1,9 @@
-﻿using ApolloInterop.Classes.Events;
+﻿using NopolloInterop.Classes.Events;
 using System;
 using System.IO;
 using System.Linq;
 
-namespace ApolloInterop.Classes.IO
+namespace NopolloInterop.Classes.IO
 {
     public class EventableStringWriter : StringWriter
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApolloInterop.Enums
+namespace NopolloInterop.Enums
 {
     public static class Win32
     {

@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Collections.Concurrent;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Types.Delegates;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Enums.ApolloEnums;
-using ApolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Types.Delegates;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Classes;
 using System.Threading;
 using  System.Threading.Tasks;
 using System.Reflection;
-using ApolloInterop.Classes.Collections;
-using ApolloInterop.Utils;
+using NopolloInterop.Classes.Collections;
+using NopolloInterop.Utils;
 
-namespace Apollo.Management.Tasks
+namespace Nopollo.Management.Tasks
 {
     public class TaskManager : ITaskManager
     {

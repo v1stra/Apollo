@@ -1,7 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 
-namespace ApolloInterop.Utils
+namespace NopolloInterop.Utils
 {
     public static class RegistryUtils
     {

@@ -9,9 +9,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System.Runtime.Serialization;
 using System.IO;
 using System.Security.AccessControl;
@@ -130,7 +130,7 @@ namespace Tasks
             };
             try
             {
-                if (ApolloInterop.Utils.PathUtils.TryGetExactPath(uncPath, out uncPath))
+                if (NopolloInterop.Utils.PathUtils.TryGetExactPath(uncPath, out uncPath))
                 {
                     string errorMessage = "";
                     bool bRet = true;
@@ -197,7 +197,7 @@ namespace Tasks
                             results.Name = finfo.Name;
                             results.ParentPath = dinfo.Parent == null
                                 ? ""
-                                : ApolloInterop.Utils.PathUtils.StripPathOfHost(dinfo.Parent.FullName);
+                                : NopolloInterop.Utils.PathUtils.StripPathOfHost(dinfo.Parent.FullName);
                             results.AccessTime = finfo.AccessTime;
                             results.CreationDate = finfo.CreationDate;
                             results.ModifyTime = finfo.ModifyTime;

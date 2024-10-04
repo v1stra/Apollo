@@ -1,9 +1,9 @@
 ﻿using Microsoft.Win32.SafeHandles;
 using System;
 using System.Runtime.InteropServices;
-using static ApolloInterop.Enums.Win32;
+using static NopolloInterop.Enums.Win32;
 
-namespace ApolloInterop.Structs
+namespace NopolloInterop.Structs
 {
     public static class Win32
     {

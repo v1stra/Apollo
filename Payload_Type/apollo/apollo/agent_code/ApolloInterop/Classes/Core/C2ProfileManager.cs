@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Interfaces;
 
-namespace ApolloInterop.Classes
+namespace NopolloInterop.Classes
 {
     public abstract class C2ProfileManager : IC2ProfileManager 
     {

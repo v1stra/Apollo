@@ -1,8 +1,8 @@
-﻿using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+﻿using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System.Collections.Concurrent;
 
-namespace ApolloInterop.Classes.P2P
+namespace NopolloInterop.Classes.P2P
 {
     public abstract class PeerManager : IPeerManager
     {

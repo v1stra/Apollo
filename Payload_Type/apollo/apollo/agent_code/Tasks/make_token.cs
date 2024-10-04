@@ -6,10 +6,10 @@
 
 #if MAKE_TOKEN
 
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.ApolloStructs;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.MythicStructs;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 
@@ -23,7 +23,7 @@ namespace Tasks
             [DataMember(Name = "credential")]
             public Credential Credential;
         }
-        public make_token(IAgent agent, ApolloInterop.Structs.MythicStructs.MythicTask data) : base(agent, data)
+        public make_token(IAgent agent, NopolloInterop.Structs.MythicStructs.MythicTask data) : base(agent, data)
         {
         }
         public override void Start()

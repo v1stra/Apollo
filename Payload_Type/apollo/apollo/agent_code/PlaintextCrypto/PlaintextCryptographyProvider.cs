@@ -1,6 +1,6 @@
 ﻿using System;
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
 
 namespace PlaintextCryptography
 {

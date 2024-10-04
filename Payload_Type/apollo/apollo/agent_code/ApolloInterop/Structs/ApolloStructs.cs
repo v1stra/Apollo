@@ -1,5 +1,5 @@
-﻿using ApolloInterop.Enums.ApolloEnums;
-using ApolloInterop.Interfaces;
+﻿using NopolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.IO.Pipes;
@@ -7,7 +7,7 @@ using System.Net.Sockets;
 using System.Runtime.Serialization;
 using System.Security;
 
-namespace ApolloInterop.Structs.ApolloStructs
+namespace NopolloInterop.Structs.ApolloStructs
 {
 
     [DataContract]

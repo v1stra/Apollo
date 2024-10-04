@@ -1,4 +1,4 @@
-﻿namespace ApolloInterop.Enums
+﻿namespace NopolloInterop.Enums
 {
     namespace ApolloEnums
     {

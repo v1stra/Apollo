@@ -8,9 +8,9 @@
 
 using System;
 using System.Linq;
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System.Runtime.Serialization;
 using System.Threading;
 using System.IO;
@@ -19,8 +19,8 @@ using System.Runtime.InteropServices;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Security.Principal;
-using ApolloInterop.Classes.Api;
-using ApolloInterop.Utils;
+using NopolloInterop.Classes.Api;
+using NopolloInterop.Utils;
 
 namespace Tasks
 {

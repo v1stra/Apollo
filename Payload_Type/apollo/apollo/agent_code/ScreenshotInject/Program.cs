@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using ApolloInterop.Serializers;
+using NopolloInterop.Serializers;
 using System.Collections.Concurrent;
-using ApolloInterop.Classes;
+using NopolloInterop.Classes;
 using System.Threading;
-using ApolloInterop.Classes.Core;
-using ApolloInterop.Structs.ApolloStructs;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Classes.Core;
+using NopolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Interfaces;
 using ST = System.Threading.Tasks;
-using ApolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Enums.ApolloEnums;
 using System.IO.Pipes;
-using ApolloInterop.Constants;
-using ApolloInterop.Classes.Events;
+using NopolloInterop.Constants;
+using NopolloInterop.Classes.Events;
 
 namespace ScreenshotInject
 {

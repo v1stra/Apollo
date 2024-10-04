@@ -6,10 +6,10 @@
 
 #if EXECUTE_COFF
 
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Utils;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Utils;
 using System;
 using System.Collections.Generic;
 using System.Reflection;

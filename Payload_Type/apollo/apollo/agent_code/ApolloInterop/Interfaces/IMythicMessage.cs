@@ -1,6 +1,6 @@
-﻿using ApolloInterop.Enums.ApolloEnums;
+﻿using NopolloInterop.Enums.ApolloEnums;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IMythicMessage
     {

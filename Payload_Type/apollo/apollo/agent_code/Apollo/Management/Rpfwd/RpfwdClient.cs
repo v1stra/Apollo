@@ -1,17 +1,17 @@
-﻿using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
+﻿using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Net.Sockets;
 using System.Threading;
 using TT = System.Threading.Tasks;
-using ApolloInterop.Enums.ApolloEnums;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Structs.MythicStructs;
 using System.Net;
-using ApolloInterop.Utils;
+using NopolloInterop.Utils;
 
-namespace Apollo.Management.Rpfwd
+namespace Nopollo.Management.Rpfwd
 {
     public class RpfwdClient
     {

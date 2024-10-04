@@ -1,6 +1,6 @@
-﻿using ApolloInterop.Structs.MythicStructs;
+﻿using NopolloInterop.Structs.MythicStructs;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IPeer
     {

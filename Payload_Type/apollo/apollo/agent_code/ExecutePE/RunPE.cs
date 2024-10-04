@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.ApolloStructs;
 using ExecutePE.Internals;
 using ExecutePE.Patchers;
 

@@ -1,12 +1,12 @@
-﻿using ApolloInterop.Interfaces;
+﻿using NopolloInterop.Interfaces;
 using System;
-using ApolloInterop.Classes;
+using NopolloInterop.Classes;
 using PlaintextCryptography;
 using PSKCryptography;
-using ApolloInterop.Serializers;
-using ApolloInterop.Classes.Api;
+using NopolloInterop.Serializers;
+using NopolloInterop.Classes.Api;
 using SimpleResolver;
-namespace Apollo.Api
+namespace Nopollo.Api
 {
     public class Api : IApi
     {

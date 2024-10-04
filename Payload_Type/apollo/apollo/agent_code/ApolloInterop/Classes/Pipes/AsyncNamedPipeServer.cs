@@ -1,11 +1,11 @@
-﻿using ApolloInterop.Structs.ApolloStructs;
+﻿using NopolloInterop.Structs.ApolloStructs;
 using System;
 using System.Collections.Concurrent;
 using System.IO.Pipes;
 using System.Security.AccessControl;
 using System.Security.Principal;
 
-namespace ApolloInterop.Classes
+namespace NopolloInterop.Classes
 {
     public class AsyncNamedPipeServer
     {

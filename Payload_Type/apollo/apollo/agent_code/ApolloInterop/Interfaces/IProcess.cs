@@ -1,7 +1,7 @@
-﻿using ApolloInterop.Structs.ApolloStructs;
+﻿using NopolloInterop.Structs.ApolloStructs;
 using System;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IProcess
     {

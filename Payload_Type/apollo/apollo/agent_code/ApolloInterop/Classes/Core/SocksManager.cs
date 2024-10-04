@@ -1,8 +1,8 @@
 ﻿using System;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 
-namespace ApolloInterop.Classes
+namespace NopolloInterop.Classes
 {
     public abstract class SocksManager : ISocksManager
     {

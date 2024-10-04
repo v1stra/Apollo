@@ -1,7 +1,7 @@
-﻿using ApolloInterop.Classes.Core;
+﻿using NopolloInterop.Classes.Core;
 using System;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IInjectionManager
     {

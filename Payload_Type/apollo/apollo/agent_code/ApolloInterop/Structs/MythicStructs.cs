@@ -2,14 +2,14 @@
 using System.Runtime.Serialization;
 using sStatusMessage = System.String;
 using sMessageAction = System.String;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Enums.ApolloEnums;
 using System.Net;
 using System.IO;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.ApolloStructs;
 using System.Reflection;
 
-namespace ApolloInterop.Structs
+namespace NopolloInterop.Structs
 {
 
     namespace MythicStructs

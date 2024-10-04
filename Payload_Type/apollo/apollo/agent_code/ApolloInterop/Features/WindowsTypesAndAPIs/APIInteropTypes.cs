@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace ApolloInterop.Features.WindowsTypesAndAPIs;
+namespace NopolloInterop.Features.WindowsTypesAndAPIs;
 
 public class APIInteropTypes
 {

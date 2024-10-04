@@ -1,5 +1,5 @@
-﻿using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
+﻿using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
@@ -7,12 +7,12 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using TT = System.Threading.Tasks;
-using ApolloInterop.Enums.ApolloEnums;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Structs.MythicStructs;
 using System.Net;
-using ApolloInterop.Constants;
+using NopolloInterop.Constants;
 
-namespace Apollo.Management.Socks
+namespace Nopollo.Management.Socks
 {
     public class SocksClient
     {

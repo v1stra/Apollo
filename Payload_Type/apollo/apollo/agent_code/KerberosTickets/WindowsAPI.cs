@@ -1,5 +1,5 @@
-﻿using ApolloInterop.Classes.Api;
-using ApolloInterop.Features.WindowsTypesAndAPIs;
+﻿using NopolloInterop.Classes.Api;
+using NopolloInterop.Features.WindowsTypesAndAPIs;
 using static KerberosTickets.KerberosTicketManager;
 
 namespace KerberosTickets;

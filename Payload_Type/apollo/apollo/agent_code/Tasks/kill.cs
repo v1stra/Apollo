@@ -6,9 +6,9 @@
 
 #if KILL
 
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System;
 using System.Runtime.Serialization;
 
@@ -22,7 +22,7 @@ namespace Tasks
             [DataMember(Name = "pid")]
             public int PID;
         }
-        public kill(IAgent agent, ApolloInterop.Structs.MythicStructs.MythicTask data) : base(agent, data)
+        public kill(IAgent agent, NopolloInterop.Structs.MythicStructs.MythicTask data) : base(agent, data)
         {
         }
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApolloInterop.Classes.Events
+namespace NopolloInterop.Classes.Events
 {
     public class StringDataEventArgs : EventArgs
     {

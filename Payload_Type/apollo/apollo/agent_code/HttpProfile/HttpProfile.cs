@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Types.Delegates;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Types.Delegates;
 using System.Net;
-using ApolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Enums.ApolloEnums;
 
 namespace HttpTransport
 {

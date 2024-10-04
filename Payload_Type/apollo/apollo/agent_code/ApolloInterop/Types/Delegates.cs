@@ -1,6 +1,6 @@
-﻿using ApolloInterop.Enums.ApolloEnums;
+﻿using NopolloInterop.Enums.ApolloEnums;
 
-namespace ApolloInterop.Types
+namespace NopolloInterop.Types
 {
     namespace Delegates
     {

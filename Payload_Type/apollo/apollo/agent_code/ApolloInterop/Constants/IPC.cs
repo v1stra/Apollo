@@ -1,4 +1,4 @@
-﻿namespace ApolloInterop.Constants
+﻿namespace NopolloInterop.Constants
 {
     public static class IPC
     {

@@ -1,13 +1,13 @@
-﻿using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Enums.ApolloEnums;
+﻿using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Enums.ApolloEnums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using ApolloInterop.Serializers;
+using NopolloInterop.Serializers;
 
-namespace ApolloInterop.Classes
+namespace NopolloInterop.Classes
 {
     public abstract class Tasking : ITask
     {

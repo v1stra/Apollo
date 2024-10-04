@@ -1,9 +1,9 @@
 ﻿using System.Security.Principal;
-using ApolloInterop.Enums;
-using static ApolloInterop.Features.WindowsTypesAndAPIs.WinNTTypes;
-using static ApolloInterop.Features.WindowsTypesAndAPIs.LSATypes;
-using static ApolloInterop.Features.WindowsTypesAndAPIs.APIInteropTypes;
-namespace ApolloInterop.Features.WindowsTypesAndAPIs;
+using NopolloInterop.Enums;
+using static NopolloInterop.Features.WindowsTypesAndAPIs.WinNTTypes;
+using static NopolloInterop.Features.WindowsTypesAndAPIs.LSATypes;
+using static NopolloInterop.Features.WindowsTypesAndAPIs.APIInteropTypes;
+namespace NopolloInterop.Features.WindowsTypesAndAPIs;
 
 public class Advapi32APIs
 {

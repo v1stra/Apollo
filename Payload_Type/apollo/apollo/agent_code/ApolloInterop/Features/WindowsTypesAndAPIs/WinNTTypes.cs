@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Text;
-using static ApolloInterop.Features.WindowsTypesAndAPIs.APIInteropTypes;
+using static NopolloInterop.Features.WindowsTypesAndAPIs.APIInteropTypes;
 
-namespace ApolloInterop.Features.WindowsTypesAndAPIs;
+namespace NopolloInterop.Features.WindowsTypesAndAPIs;
 
 
 public static class WinNTTypes

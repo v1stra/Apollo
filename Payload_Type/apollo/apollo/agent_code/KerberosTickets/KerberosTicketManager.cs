@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ApolloInterop.Features.KerberosTickets;
-using ApolloInterop.Features.WindowsTypesAndAPIs;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Utils;
+using NopolloInterop.Features.KerberosTickets;
+using NopolloInterop.Features.WindowsTypesAndAPIs;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Utils;
 
 namespace KerberosTickets;
 

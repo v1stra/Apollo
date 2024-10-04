@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApolloInterop.Features.KerberosTickets;
+namespace NopolloInterop.Features.KerberosTickets;
 
 public record KerberosTicketDataDTO
 {

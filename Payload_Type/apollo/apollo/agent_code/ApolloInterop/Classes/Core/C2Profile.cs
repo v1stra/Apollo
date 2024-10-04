@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Interfaces;
 using System.Collections.Concurrent;
-using ApolloInterop.Structs.ApolloStructs;
-using ApolloInterop.Classes.Core;
+using NopolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Classes.Core;
 
-namespace ApolloInterop.Classes
+namespace NopolloInterop.Classes
 {
     public abstract class C2Profile
     {

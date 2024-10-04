@@ -10,11 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
-using ApolloInterop.Classes;
-using ApolloInterop.Features.KerberosTickets;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Utils;
+using NopolloInterop.Classes;
+using NopolloInterop.Features.KerberosTickets;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Utils;
 
 namespace Tasks;
 

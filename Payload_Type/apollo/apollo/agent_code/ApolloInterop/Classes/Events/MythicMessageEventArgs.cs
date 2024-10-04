@@ -1,7 +1,7 @@
-﻿using ApolloInterop.Interfaces;
+﻿using NopolloInterop.Interfaces;
 using System;
 
-namespace ApolloInterop.Classes.Events
+namespace NopolloInterop.Classes.Events
 {
     public class MythicMessageEventArgs : EventArgs
     {

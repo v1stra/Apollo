@@ -1,4 +1,4 @@
-﻿namespace ApolloInterop.Classes.Api
+﻿namespace NopolloInterop.Classes.Api
 {
     public class Library
     {

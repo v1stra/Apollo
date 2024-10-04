@@ -1,8 +1,8 @@
-﻿using ApolloInterop.Enums;
-using static ApolloInterop.Features.WindowsTypesAndAPIs.APIInteropTypes;
+﻿using NopolloInterop.Enums;
+using static NopolloInterop.Features.WindowsTypesAndAPIs.APIInteropTypes;
 
 
-namespace ApolloInterop.Features.WindowsTypesAndAPIs;
+namespace NopolloInterop.Features.WindowsTypesAndAPIs;
 
 public static class Secur32APIs
 {

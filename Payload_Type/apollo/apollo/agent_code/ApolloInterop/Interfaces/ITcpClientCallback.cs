@@ -1,8 +1,8 @@
-﻿using ApolloInterop.Structs.ApolloStructs;
+﻿using NopolloInterop.Structs.ApolloStructs;
 using System;
 using System.Net.Sockets;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface ITcpClientCallback
     {

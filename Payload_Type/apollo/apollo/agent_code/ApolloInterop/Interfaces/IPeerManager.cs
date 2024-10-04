@@ -1,6 +1,6 @@
-﻿using ApolloInterop.Classes.P2P;
-using ApolloInterop.Structs.MythicStructs;
-namespace ApolloInterop.Interfaces
+﻿using NopolloInterop.Classes.P2P;
+using NopolloInterop.Structs.MythicStructs;
+namespace NopolloInterop.Interfaces
 {
     public interface IPeerManager
     {

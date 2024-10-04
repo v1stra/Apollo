@@ -1,7 +1,7 @@
-﻿using ApolloInterop.Structs.MythicStructs;
+﻿using NopolloInterop.Structs.MythicStructs;
 using System.Net.Sockets;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IRpfwdManager
     {

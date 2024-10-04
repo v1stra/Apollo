@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.ApolloStructs;
 
 namespace ExecutePE.Standalone;
 

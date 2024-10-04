@@ -1,9 +1,9 @@
-﻿using ApolloInterop.Structs.ApolloStructs;
-using ApolloInterop.Structs.MythicStructs;
+﻿using NopolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.MythicStructs;
 using System;
 using System.Security.Principal;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IIdentityManager
     {

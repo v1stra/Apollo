@@ -1,10 +1,10 @@
-﻿using ApolloInterop.Classes.Api;
-using ApolloInterop.Classes.Events;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.ApolloStructs;
+﻿using NopolloInterop.Classes.Api;
+using NopolloInterop.Classes.Events;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.ApolloStructs;
 using System;
 
-namespace ApolloInterop.Classes.Core
+namespace NopolloInterop.Classes.Core
 {
     public abstract class Process : IProcess
     {

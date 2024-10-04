@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using ApolloInterop.Classes.Api;
-using ApolloInterop.Classes.Core;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Classes.Api;
+using NopolloInterop.Classes.Core;
+using NopolloInterop.Interfaces;
 using static Injection.Shared.Win32;
 
 namespace Injection.Techniques.EarlyBird

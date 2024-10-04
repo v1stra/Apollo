@@ -1,9 +1,9 @@
-﻿using AI = ApolloInterop;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+﻿using AI = NopolloInterop;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System.Collections.Concurrent;
 
-namespace Apollo.Management.Socks
+namespace Nopollo.Management.Socks
 {
     public class SocksManager : AI.Classes.SocksManager
     {

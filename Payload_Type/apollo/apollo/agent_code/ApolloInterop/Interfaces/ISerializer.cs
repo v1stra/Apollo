@@ -1,8 +1,8 @@
-﻿using ApolloInterop.Enums.ApolloEnums;
-using ApolloInterop.Structs.ApolloStructs;
-using ApolloInterop.Constants;
+﻿using NopolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Constants;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface ISerializer
     {

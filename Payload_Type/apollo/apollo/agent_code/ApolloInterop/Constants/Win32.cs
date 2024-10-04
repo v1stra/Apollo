@@ -1,6 +1,6 @@
 ﻿using System.Security.Principal;
 
-namespace ApolloInterop.Constants
+namespace NopolloInterop.Constants
 {
     public static class Win32
     {

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace ApolloInterop.Utils
+namespace NopolloInterop.Utils
 {
     public static class DebugHelp
     {

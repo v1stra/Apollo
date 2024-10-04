@@ -1,20 +1,20 @@
 ﻿using System;
-using ApolloInterop.Serializers;
+using NopolloInterop.Serializers;
 using System.Collections.Generic;
-using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
 using System.IO.Pipes;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.ApolloStructs;
 using System.Text;
 using System.Threading;
 using System.Linq;
 using System.Collections.Concurrent;
-using ApolloInterop.Classes.Core;
-using ApolloInterop.Classes.Events;
-using ApolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Classes.Core;
+using NopolloInterop.Classes.Events;
+using NopolloInterop.Enums.ApolloEnums;
 using System.Runtime.InteropServices;
 
-namespace Apollo
+namespace Nopollo
 {
     class Program
     {
@@ -105,7 +105,7 @@ namespace Apollo
             //}
 
             // This is main execution.
-            Agent.Apollo ap = new Agent.Apollo(Config.PayloadUUID);
+            Agent.Nopollo ap = new Agent.Nopollo(Config.PayloadUUID);
             ap.Start();
         }
 

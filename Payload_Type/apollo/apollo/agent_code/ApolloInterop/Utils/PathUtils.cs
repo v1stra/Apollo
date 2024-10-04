@@ -3,7 +3,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace ApolloInterop.Utils
+namespace NopolloInterop.Utils
 {
     public static class PathUtils
     {

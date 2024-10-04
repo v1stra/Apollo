@@ -1,7 +1,7 @@
-﻿using ApolloInterop.Classes.Core;
-using ApolloInterop.Structs.ApolloStructs;
+﻿using NopolloInterop.Classes.Core;
+using NopolloInterop.Structs.ApolloStructs;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IProcessManager
     {

@@ -1,9 +1,9 @@
 ﻿//#define SERVER2012_COMPATIBLE
 
-using ApolloInterop.Classes.Api;
-using ApolloInterop.Classes.Events;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Classes.Api;
+using NopolloInterop.Classes.Events;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.ApolloStructs;
 using Microsoft.Win32.SafeHandles;
 using System;
 using System.Collections.Generic;
@@ -13,13 +13,13 @@ using System.Runtime.InteropServices;
 using System.Security.Principal;
 using System.Threading;
 using System.Threading.Tasks;
-using ApolloInterop.Features.WindowsTypesAndAPIs;
-using ApolloInterop.Structs;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Utils;
-using static ApolloInterop.Enums.Win32;
-using static ApolloInterop.Structs.Win32;
-using AI = ApolloInterop.Classes.Core;
+using NopolloInterop.Features.WindowsTypesAndAPIs;
+using NopolloInterop.Structs;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Utils;
+using static NopolloInterop.Enums.Win32;
+using static NopolloInterop.Structs.Win32;
+using AI = NopolloInterop.Classes.Core;
 
 namespace Process
 {

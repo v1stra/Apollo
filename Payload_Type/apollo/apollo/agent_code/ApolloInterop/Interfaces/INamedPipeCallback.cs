@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO.Pipes;
-using ApolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Structs.ApolloStructs;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface INamedPipeCallback
     {

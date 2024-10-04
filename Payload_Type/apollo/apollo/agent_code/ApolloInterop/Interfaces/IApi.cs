@@ -1,8 +1,8 @@
-﻿using ApolloInterop.Classes;
+﻿using NopolloInterop.Classes;
 using System;
-using ApolloInterop.Classes.Api;
+using NopolloInterop.Classes.Api;
 
-namespace ApolloInterop.Interfaces
+namespace NopolloInterop.Interfaces
 {
     public interface IApi
     {

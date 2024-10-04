@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using ApolloInterop.Classes.Core;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Classes.Core;
+using NopolloInterop.Interfaces;
 using Injection.Shared;
 
 namespace Injection.Techniques.Syscall_x64

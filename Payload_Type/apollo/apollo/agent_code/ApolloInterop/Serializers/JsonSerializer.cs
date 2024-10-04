@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-using ApolloInterop.Interfaces;
+using NopolloInterop.Interfaces;
 using System.IO;
 using System.Runtime.Serialization.Json;
-using ApolloInterop.Structs.ApolloStructs;
-using ApolloInterop.Types;
-using ApolloInterop.Enums.ApolloEnums;
+using NopolloInterop.Structs.ApolloStructs;
+using NopolloInterop.Types;
+using NopolloInterop.Enums.ApolloEnums;
 
-namespace ApolloInterop.Serializers
+namespace NopolloInterop.Serializers
 {
     public class JsonSerializer : ISerializer
     {

@@ -1,12 +1,12 @@
 ﻿using System;
-using Apollo.Peers.SMB;
-using Apollo.Peers.TCP;
-using Apollo.Peers.Webshell;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
-using ApolloInterop.Utils;
-using AI = ApolloInterop;
-namespace Apollo.Management.Peer
+using Nopollo.Peers.SMB;
+using Nopollo.Peers.TCP;
+using Nopollo.Peers.Webshell;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
+using NopolloInterop.Utils;
+using AI = NopolloInterop;
+namespace Nopollo.Management.Peer
 {
     public class PeerManager : AI.Classes.P2P.PeerManager
     {

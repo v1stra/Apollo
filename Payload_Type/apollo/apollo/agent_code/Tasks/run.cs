@@ -6,11 +6,11 @@
 
 #if RUN
 
-using ApolloInterop.Classes;
-using ApolloInterop.Classes.Api;
-using ApolloInterop.Classes.Core;
-using ApolloInterop.Interfaces;
-using ApolloInterop.Structs.MythicStructs;
+using NopolloInterop.Classes;
+using NopolloInterop.Classes.Api;
+using NopolloInterop.Classes.Core;
+using NopolloInterop.Interfaces;
+using NopolloInterop.Structs.MythicStructs;
 using System;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
@@ -125,7 +125,7 @@ namespace Tasks
             _complete.Set();
         }
 
-        private void DataReceived(object sender, ApolloInterop.Classes.Events.StringDataEventArgs e)
+        private void DataReceived(object sender, NopolloInterop.Classes.Events.StringDataEventArgs e)
         {
             if (!string.IsNullOrEmpty(e.Data))
             {

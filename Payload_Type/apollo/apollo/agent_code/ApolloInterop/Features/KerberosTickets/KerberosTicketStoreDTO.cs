@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApolloInterop.Features.KerberosTickets;
+namespace NopolloInterop.Features.KerberosTickets;
 
 //for the moment this is the same as the KerberosTicketDataDTO, but it will be used for the store so more / different fileds may be added that are unique to the store
 public record KerberosTicketStoreDTO

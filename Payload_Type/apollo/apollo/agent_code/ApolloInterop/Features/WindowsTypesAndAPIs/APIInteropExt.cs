@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApolloInterop.Features.WindowsTypesAndAPIs;
+namespace NopolloInterop.Features.WindowsTypesAndAPIs;
 
 public static class APIInteropExt
 {

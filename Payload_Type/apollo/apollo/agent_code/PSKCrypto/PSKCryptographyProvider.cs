@@ -1,5 +1,5 @@
-﻿using ApolloInterop.Classes;
-using ApolloInterop.Interfaces;
+﻿using NopolloInterop.Classes;
+using NopolloInterop.Interfaces;
 using System;
 using System.Security.Cryptography;
 using System.Linq;
