@@ -5,6 +5,6 @@
   "exclude_documentation_c2": false,
   "exclude_agent_icons": false,
   "remote_images": {
-    "apollo": "ghcr.io/v1stra/apollo:latest"
+    "apollo": "ghcr.io/v1stra/apollo:v1.0.0"
   }
 }
