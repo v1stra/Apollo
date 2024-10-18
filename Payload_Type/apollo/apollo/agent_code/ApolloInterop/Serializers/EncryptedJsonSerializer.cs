@@ -33,15 +33,15 @@ namespace ApolloInterop.Serializers
         public override string Serialize(object msg)
         {
             string jsonMsg = base.Serialize(msg);
-            return Cryptor.Encrypt(jsonMsg);
+            return "{ \"id\": 0, \"__m\": { \"nonce\": \"" + Cryptor.Encrypt(jsonMsg) + "\" }}";
         }
 
         public override T Deserialize<T>(string msg) 
         {
-            string decrypted = Cryptor.Decrypt(msg);
+            string decoded = msg.Split('"')[7];
+            string decrypted = Cryptor.Decrypt(decoded);
             return base.Deserialize<T>(decrypted);
         }
-
         public override object Deserialize(string msg, Type t)
         {
             string decrypted = Cryptor.Decrypt(msg);
